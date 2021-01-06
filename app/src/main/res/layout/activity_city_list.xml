@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CityListActivity"
+    android:padding="40dp"
+    android:background="@android:color/black"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saved City"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="23sp"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_marginBottom="20dp"
+        />
+
+    <ListView
+        android:id="@+id/city_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
